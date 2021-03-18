@@ -17,7 +17,7 @@ public class Shape {
         return 0;
     }
 
-    public double getArea() {
+    public int getArea() {
         return 0;
     }
 }

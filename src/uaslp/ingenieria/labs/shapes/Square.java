@@ -16,4 +16,10 @@ public class Square extends Shape {
     public int getPerimeter() {
         return side * 4;
     }
+    public int getArea(){
+        return this.side * this.side;
+    }
+    public int getSidesCount(){
+        return 4;
+    }
 }
